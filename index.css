@@ -36,7 +36,9 @@ button {
     display: block;
     margin: 0 auto 10px;
 }
-
+button:focus{
+    outline:none;
+}
 #increment-btn {
     background: darkgreen;
 }
@@ -56,6 +58,9 @@ button {
     line-height: 1;
     padding:8px 10px;
     border-radius: 50px;
+}
+.red-col{
+    color:#dd0000;
 }
 .counter-row{    
     width:400px;
